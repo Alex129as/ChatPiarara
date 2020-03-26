@@ -1,5 +1,10 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+use_frameworks!
+
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/artsy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'ChatPiarara' do
   # Pods for ChatPiarara
@@ -30,11 +35,11 @@ target 'ChatPiarara' do
   pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
-  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec/'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios/RNFirebase.podspec'
 
   target 'ChatPiararaTests' do
     inherit! :search_paths

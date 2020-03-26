@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>350259007642-ov9bp1ts8pjv8gai6vr53q1tuki6m5fl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.350259007642-ov9bp1ts8pjv8gai6vr53q1tuki6m5fl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsCZdEXI6lq8tHQg_Yc5qE4zyhzwehW1U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>350259007642</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ChatPiarara.firebase</string>
+	<key>PROJECT_ID</key>
+	<string>chatpiarara</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatpiarara.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:350259007642:ios:55be018c5de6f830484f23</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatpiarara.firebaseio.com</string>
+</dict>
+</plist>
